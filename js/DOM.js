@@ -263,9 +263,7 @@ document.getElementById("formularioNota").addEventListener("submit", function (e
 
 document.getElementById("botonCancelar").addEventListener("click", limpiarFormulario);
 
-/* PARTE 4: LOGIN, MENÚ Y EVENTOS */
 
-// Valida el usuario y la contraseña de demostración.
 document.getElementById("formularioLogin").addEventListener("submit", function (evento) {
   evento.preventDefault();
 
